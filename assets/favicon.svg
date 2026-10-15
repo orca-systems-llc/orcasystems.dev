@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <title>Orca Systems</title>
+  <defs>
+    <path id="body" d="M93 52C93 44 86 38.5 75 38C70 37.8 65 38 61 38.6C58 30 54 20 48.5 10C48.6 20 48 31 46.6 40.4C36 42.4 25 46.5 17 50.5C12 47.6 7 46 2 46C5 49 8 51.5 11 53.2C8 55.5 5 58.5 3.5 62C8 61.2 13 59 17.5 56C28 61.5 43 65.5 56 66.4C68 67.2 93 62 93 52Z"/>
+    <clipPath id="clip"><use href="#body"/></clipPath>
+  </defs>
+  <rect width="100" height="100" rx="24" fill="#f4f1ea"/>
+  <g transform="translate(8 11) scale(.88)">
+    <use href="#body" fill="#0f1720"/>
+    <g clip-path="url(#clip)" fill="#f4f1ea">
+      <ellipse cx="71" cy="46" rx="6.6" ry="2.3" transform="rotate(-7 71 46)"/>
+      <path d="M100 53.5C93 57 84 58 72 58.6C62 59.1 54 60 46 61.6L46 90L100 90Z"/>
+      <path d="M52 63C43 61 34 56.5 26 50.5C32 59.5 40 64.5 48 67Z"/>
+    </g>
+    <use href="#body" fill="none" stroke="#0f1720" stroke-width="2.6" stroke-linejoin="round"/>
+    <path fill="#0f1720" d="M57 64C56 71 53 76 48 80.5C55 81.5 63 76 67 65.5Z"/>
+  </g>
+</svg>
